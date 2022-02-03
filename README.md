@@ -1,7 +1,5 @@
 # Namaskar 🙏 
 
-![Swapnil Patil](https://i0.wp.com/swapnil.blog/wp-content/uploads/2020/05/banner-bnw.png)
-
 I’m Swapnil. Nice to meet you 🙂
 
 I’m a community manager and front-end developer based in Pune, MH, India. I work as a liaison between an organization and its audience that helps move businesses forward. I have a keen interest in web accessibility, User Experience, and Customer Experience processes. I’m passionate about using data-driven techniques to discover the perfect products for the right market, then bringing those products to life.
