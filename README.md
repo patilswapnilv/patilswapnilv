@@ -15,18 +15,18 @@ As a developer, I have focused on the needs of customer-facing applications and 
 
 ## 👨‍💻 WordPress.org:
 
-https://profiles.wordpress.org/patilswapnilv
-=> Contributor to Core WordPress 
-=> Experience in Building themes and Plugins.
-=> General Translation Editor for WordPress (Marathi)
+https://profiles.wordpress.org/patilswapnilv <br>
+=> Contributor to Core WordPress <br>
+=> Experience in Building themes and Plugins. <br>
+=> General Translation Editor for WordPress (Marathi) <br>
 
 ## 👨‍💻 WordCamp Speaker:
 
-<b>WordCamp Bhopal'16</b>
+<b>WordCamp Bhopal'16<b> <br>
 https://2016.bhopal.wordcamp.org/speakers/#wcorg-speaker-swapnil-patil
-<b>WordCamp Nashik'16</b>
+<b>WordCamp Nashik'16</b><br>
 https://2016.nashik.wordcamp.org/speakers/#wcorg-speaker-swapnil-patil
-<b>WordCamp Pune'17</b>
+<b>WordCamp Pune'17</b><br>
 https://2017.pune.wordcamp.org/session/introduction-wordpress-coding-standards-and-automating-them/
 
 
@@ -108,3 +108,7 @@ Find out more about me & feel free to connect with me here:
 </p>
 
 ---
+
+<p align="center">
+   <img src="https://github.com/patilswapnilv/patilswapnilv/blob/output/github-contribution-grid-snake.svg" alt="snake">
+</p>
