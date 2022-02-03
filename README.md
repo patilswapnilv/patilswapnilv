@@ -41,7 +41,7 @@ Find out more about me & feel free to connect with me here:
 	<a href="https://www.linkedin.com/in/patilswapnilv/">
 		<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 	</a>
-	<a href="https://twitter.com/patilswapnilv email template">
+	<a href="https://twitter.com/patilswapnilv">
 		<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
 	</a>
 	<a href="https://www.instagram.com/patilswapnilv/">
