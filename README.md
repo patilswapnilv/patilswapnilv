@@ -14,9 +14,9 @@ As a developer, I have focused on the needs of customer-facing applications and 
 ## 👨‍💻 WordPress.org:
 
 https://profiles.wordpress.org/patilswapnilv <br>
-=> Contributor to Core WordPress <br>
-=> Experience in Building themes and Plugins. <br>
-=> General Translation Editor for WordPress (Marathi) <br>
+> Contributor to Core WordPress <br>
+> Experience in Building themes and Plugins. <br>
+> General Translation Editor for WordPress (Marathi) <br>
 
 ## 👨‍💻 WordCamp Speaker:
 
