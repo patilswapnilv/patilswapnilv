@@ -28,12 +28,7 @@ https://2016.nashik.wordcamp.org/speakers/#wcorg-speaker-swapnil-patil<br><br>
 https://2017.pune.wordcamp.org/session/introduction-wordpress-coding-standards-and-automating-them/<br>
 
 
-## Github:
-https://github.com/patilswapnilv
-
-Swapnil loves to be a part of a developers team that has the vision to bring in innovative, bold, and inspiring work that sets an example to follow for the rest of the community.
-
-Find out more about me & feel free to connect with me here:
+### Find out more about me & feel free to connect with me here:
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/patilswapnilv/">
@@ -52,7 +47,10 @@ Find out more about me & feel free to connect with me here:
 		<img src="https://img.shields.io/badge/blog-1AA260?style=for-the-badge&logo=wordpress&logoColor=white" />
 	</a> 
 	</a> <a href="https://profiles.wordpress.org/patilswapnilv/">
-		<img src="https://img.shields.io/badge/WordPress-0e0e0e?style=for-the-badge&logo=wordpress&logoColor=white" />
+		<img src="https://img.shields.io/badge/WordPress-0073AA?style=for-the-badge&logo=wordpress&logoColor=white" />
+	</a>
+	</a> <a href="https://github.com/patilswapnilv/">
+		<img src="https://img.shields.io/badge/Github-0e0e0e?style=for-the-badge&logo=Github&logoColor=white" />
 	</a>
 </p>
 
