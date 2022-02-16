@@ -6,10 +6,10 @@ I’m a community manager and front-end developer based in Pune, MH, India. I wo
 
 A continual focus of mine is building amazing experiences for the mobile web, from blazing performance to progressive web apps to solid mobile user experiences. This, of course, translates to the desktop as well, where optimizations for mobile improve site performance overall and result in a seamless device-to-device experience for users. 
 
-I am passionate to share his experiences on building architectures with best practices and help strengthen the makers of tomorrow.
+I am passionate to share my experiences on building architectures with best practices and help strengthen the makers of tomorrow.
 Efficiently crafting web and mobile apps. Building state-of-the-art, easy-to-use, user-friendly, and accessible applications is a passion for me.
 
-As a developer, I have focused on the needs of customer-facing applications and is actively involved in the Front-end & CMS space. I have been leading teams with businesses of all industries and sizes on innovation, as they deploy critical workloads onto the cloud, Serverless, and JAMStack.
+As a developer, I have focused on the needs of customer-facing applications and am actively involved in the Front-end & CMS space. I have been leading teams with businesses of all industries and sizes on innovation, as they deploy critical workloads onto the cloud, Serverless, and JAMStack.
 
 ## 👨‍💻 WordPress.org:
 
