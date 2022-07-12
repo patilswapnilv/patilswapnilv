@@ -2,7 +2,7 @@
 
 I’m Swapnil. Nice to meet you 🙂
 
-I’m a community manager and front-end developer based in Pune, MH, India. I work as a liaison between an organization and its audience that helps move businesses forward. I have a keen interest in web accessibility, User Experience, and Customer Experience processes. I’m passionate about using data-driven techniques to discover the perfect products for the right market, then bringing those products to life.
+I’m a software developer working as a community manager based in India. I work as a liaison between an organization and its audience that helps move businesses forward. I have a keen interest in web accessibility, User Experience, and Customer Experience processes. I’m passionate about using data-driven techniques to discover the perfect products for the right market, then bringing those products to life.
 
 A continual focus of mine is building amazing experiences for the mobile web, from blazing performance to progressive web apps to solid mobile user experiences. This, of course, translates to the desktop as well, where optimizations for mobile improve site performance overall and result in a seamless device-to-device experience for users. 
 
@@ -10,23 +10,6 @@ I am passionate to share my experiences on building architectures with best prac
 Efficiently crafting web and mobile apps. Building state-of-the-art, easy-to-use, user-friendly, and accessible applications is a passion for me.
 
 As a developer, I have focused on the needs of customer-facing applications and am actively involved in the Front-end & CMS space. I have been leading teams with businesses of all industries and sizes on innovation, as they deploy critical workloads onto the cloud, Serverless, and JAMStack.
-
-## 👨‍💻 WordPress.org:
-
-https://profiles.wordpress.org/patilswapnilv <br>
-> Contributor to Core WordPress <br>
-> Experience in Building themes and Plugins. <br>
-> General Translation Editor for WordPress (Marathi) <br>
-
-## 👨‍💻 WordCamp Speaker:
-
-<b>WordCamp Bhopal'16<b> <br>
-https://2016.bhopal.wordcamp.org/speakers/#wcorg-speaker-swapnil-patil <br><br>
-<b>WordCamp Nashik'16</b><br>
-https://2016.nashik.wordcamp.org/speakers/#wcorg-speaker-swapnil-patil<br><br>
-<b>WordCamp Pune'17</b><br>
-https://2017.pune.wordcamp.org/session/introduction-wordpress-coding-standards-and-automating-them/<br>
-
 
 ### Find out more about me & feel free to connect with me here:
 
