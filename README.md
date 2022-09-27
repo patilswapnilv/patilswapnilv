@@ -1,5 +1,5 @@
 # Namaskar 🙏 <img align="right" src="https://komarev.com/ghpvc/?username=patilswapnilv&color=orange" alt="patilswapnilv"/> 
-![header](https://user-images.githubusercontent.com/48083659/134559264-9be6cca8-67d5-4cc4-8357-6712b97cfacb.jpg)
+![header]()
 
 
 I’m Swapnil. Nice to meet you 🙂
@@ -38,10 +38,6 @@ As a developer, I have focused on the needs of customer-facing applications and 
 		<img src="https://img.shields.io/badge/Github-0e0e0e?style=for-the-badge&logo=Github&logoColor=white" />
 	</a>
 </p>
-
----
-
-![Swapnil's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=patilswapnilv&hide_border=true&theme=redical)
 
 ---
 
