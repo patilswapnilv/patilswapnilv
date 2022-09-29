@@ -13,6 +13,9 @@ Efficiently crafting web and mobile apps. Building state-of-the-art, easy-to-use
 
 As a developer, I have focused on the needs of customer-facing applications and am actively involved in the Front-end & CMS space. I have been leading teams with businesses of all industries and sizes on innovation, as they deploy critical workloads onto the cloud, Serverless, and JAMStack.
 
+<h2>Latest Tweets 🧵</h2>
+<p align='center'><a href="https://twitter.com/patilswapnilv"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=patilswapnilv&layout=wide" width="350"  alt="github-readme-twitter"></a></p>
+
 ### Find out more about me & feel free to connect with me here:
 
 <p align="center">
