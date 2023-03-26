@@ -1,5 +1,4 @@
 # Namaskar 🙏 <img align="right" src="https://komarev.com/ghpvc/?username=patilswapnilv&color=orange" alt="patilswapnilv"/> 
-![header]()
 
 
 I’m Swapnil. Nice to meet you 🙂
