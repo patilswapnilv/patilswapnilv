@@ -8,6 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Libraries for PDF and DOCX generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" xintegrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js" xintegrity="sha512-Qlv6VSKh1gDKGoJbnyA5NwM3S9cfVdIZ/don82cOBUfVsp6rJV6fssNnPkviKDaNvZAMQ6v3U6BCzH+av1CEsQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/html-to-docx@1.8.0/dist/html-to-docx.js"></script>
+
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -34,12 +40,13 @@
 </head>
 <body class="text-slate-800">
 
-    <div class="container mx-auto my-8 p-6 md:p-10 bg-white rounded-lg shadow-lg">
+    <!-- The main resume content container -->
+    <div id="resume-content" class="container mx-auto my-8 p-6 md:p-10 bg-white rounded-lg shadow-lg">
         <!-- Header Section -->
         <header class="flex flex-col md:flex-row items-start md:items-center justify-between pb-6 border-b border-slate-200">
             <div>
                 <h1 class="text-4xl md:text-5xl font-bold text-slate-900">Swapnil V. Patil</h1>
-                <h2 class="text-xl md:text-2xl font-light text-sky-600 mt-1">Engineering Manager & Developer Advocate</h2>
+                <h2 class="text-xl md:text-2xl font-light text-sky-600 mt-1">Engineering Manager / Developer Advocate</h2>
             </div>
             <div class="mt-4 md:mt-0 text-sm text-right space-y-1">
                 <a href="mailto:patilswapnilv@gmail.com" class="flex items-center justify-end hover:text-sky-600 transition-colors">
@@ -201,5 +208,85 @@
             </main>
         </div>
     </div>
+
+    <!-- Floating Action Button for Downloads -->
+    <div class="no-print fixed bottom-6 right-6 group">
+        <button id="main-fab" class="bg-sky-600 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:bg-sky-700 transition-all duration-300 transform group-hover:rotate-90">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
+        </button>
+        <!-- Corrected positioning with bottom-full to eliminate gap -->
+        <div class="absolute bottom-full right-0 flex-col items-center mb-2 space-y-2 hidden group-hover:flex">
+            <button id="download-pdf" class="bg-white text-slate-700 text-sm font-medium px-4 py-2 rounded-lg shadow-md hover:bg-slate-100 transition-colors w-32">Download PDF</button>
+            <button id="download-docx" class="bg-white text-slate-700 text-sm font-medium px-4 py-2 rounded-lg shadow-md hover:bg-slate-100 transition-colors w-32">Download DOCX</button>
+        </div>
+    </div>
+
+    <script>
+        // --- Download Functionality ---
+        document.addEventListener('DOMContentLoaded', function() {
+            const downloadPdfBtn = document.getElementById('download-pdf');
+            const downloadDocxBtn = document.getElementById('download-docx');
+            const resumeElement = document.getElementById('resume-content');
+
+            // --- PDF Download Logic ---
+            downloadPdfBtn.addEventListener('click', () => {
+                console.log("PDF download started...");
+                const opt = {
+                    margin:       [0.5, 0.2, 0.5, 0.2], // [top, left, bottom, right] in inches
+                    filename:     'Swapnil_Patil_Resume.pdf',
+                    image:        { type: 'jpeg', quality: 0.98 },
+                    html2canvas:  { scale: 2, useCORS: true, logging: true },
+                    jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+                };
+                // Use html2pdf library to generate and save the PDF
+                html2pdf().from(resumeElement).set(opt).save();
+            });
+
+            // --- DOCX Download Logic ---
+            downloadDocxBtn.addEventListener('click', async () => {
+                console.log("DOCX download started...");
+                try {
+                    // We need to provide the full HTML structure for the library to work correctly
+                    const content = `
+                        <!DOCTYPE html>
+                        <html>
+                        <head>
+                            <meta charset="UTF-8">
+                            <style>
+                                /* Basic styles for DOCX compatibility */
+                                body { font-family: Calibri, sans-serif; font-size: 11pt; }
+                                h1 { font-size: 24pt; font-weight: bold; }
+                                h2 { font-size: 14pt; color: #2d6aa8; }
+                                h3 { font-size: 12pt; font-weight: bold; border-bottom: 1px solid #2d6aa8; }
+                                h4 { font-size: 11pt; font-weight: bold; }
+                                ul { list-style-type: disc; }
+                                a { color: #0000EE; text-decoration: underline; }
+                            </style>
+                        </head>
+                        <body>
+                            ${resumeElement.innerHTML}
+                        </body>
+                        </html>
+                    `;
+                    
+                    // Use html-to-docx library to convert HTML string to a blob
+                    const fileBuffer = await htmlToDocx(content, null, {
+                        orientation: 'portrait',
+                        margins: {
+                            top: 720, // 1 inch
+                            right: 720,
+                            bottom: 720,
+                            left: 720,
+                        }
+                    });
+
+                    // Use FileSaver.js to save the blob as a .docx file
+                    saveAs(fileBuffer, 'Swapnil_Patil_Resume.docx');
+                } catch (error) {
+                    console.error("Error generating DOCX:", error);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
