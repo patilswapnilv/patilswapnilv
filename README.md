@@ -16,10 +16,6 @@ When I'm not tinkering with side-projects or automating something I'll forget ab
 Always up for a good challenge, a better idea, or a brutal code review. If you've got something cool in mind — let's build. 🚀
 
 
-
-<h2>Latest Tweets 🧵</h2>
-<p align='center'><a href="https://twitter.com/patilswapnilv"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=patilswapnilv&layout=wide" width="350"  alt="github-readme-twitter"></a></p>
-
 ### Find out more about me & feel free to connect with me here:
 
 <p align="center">
