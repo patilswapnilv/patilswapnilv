@@ -1,16 +1,21 @@
 # Namaskar 🙏 <img align="right" src="https://komarev.com/ghpvc/?username=patilswapnilv&color=orange" alt="patilswapnilv"/> 
 
 
-I’m Swapnil. Nice to meet you 🙂
+Hey, I'm Swapnil — a software engineer, systems thinker, and the kind of person who reads release notes for fun. I currently lead engineering at RedPin, where I build and scale marketing-tech platforms that don't just work — they move the needle.
 
-I’m a software developer working as a community manager based in India. I work as a liaison between an organization and its audience that helps move businesses forward. I have a keen interest in web accessibility, User Experience, and Customer Experience processes. I’m passionate about using data-driven techniques to discover the perfect products for the right market, then bringing those products to life.
+I work across the stack, but my sweet spots are React, Node.js, GraphQL, WordPress, and cloud-native infrastructure. I believe in building systems that are fast, reliable, and kind to the next developer who reads the code (often, that's me).
 
-A continual focus of mine is building amazing experiences for the mobile web, from blazing performance to progressive web apps to solid mobile user experiences. This, of course, translates to the desktop as well, where optimizations for mobile improve site performance overall and result in a seamless device-to-device experience for users. 
+Over the past decade, I've had the joy of shipping real-time sports apps at Dream11, crafting open-source DevOps tools at Devtron, and building WordPress plugins used by thousands. I've led cross-functional teams, debugged 3AM production fires, and designed systems that scale without losing sleep.
 
-I am passionate to share my experiences on building architectures with best practices and help strengthen the makers of tomorrow.
-Efficiently crafting web and mobile apps. Building state-of-the-art, easy-to-use, user-friendly, and accessible applications is a passion for me.
+I'm an active contributor to the WordPress ecosystem — from translating strings for the Polyglots team to speaking at WordCamps and mentoring early-career devs. I like building in public, sharing what I learn, and making complex things simple.
 
-As a developer, I have focused on the needs of customer-facing applications and am actively involved in the Front-end & CMS space. I have been leading teams with businesses of all industries and sizes on innovation, as they deploy critical workloads onto the cloud, Serverless, and JAMStack.
+My favorite kind of problem is the messy kind — the one that requires thinking in systems, talking to real users, and occasionally scribbling on whiteboards like a mad scientist. I'm obsessed with clean architecture, fast UIs, and thoughtful automation. If it can be debugged, I'll probably try (and sometimes succeed).
+
+When I'm not tinkering with side-projects or automating something I'll forget about later, you'll find me sipping masala chai, writing long-form blog posts, or battling layout bugs that only exist on Safari (you know the ones).
+
+Always up for a good challenge, a better idea, or a brutal code review. If you've got something cool in mind — let's build. 🚀
+
+
 
 <h2>Latest Tweets 🧵</h2>
 <p align='center'><a href="https://twitter.com/patilswapnilv"><img src="https://github-readme-twitter.gazf.vercel.app/api?id=patilswapnilv&layout=wide" width="350"  alt="github-readme-twitter"></a></p>
